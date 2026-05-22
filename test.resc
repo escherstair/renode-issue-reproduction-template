@@ -15,6 +15,6 @@ showAnalyzer sysbus.usart3
 
 macro reset
 """
-    sysbus LoadELF @$ORIGIN/artifacts/fft_benchmark.elf
+    sysbus LoadELF $ORIGIN/artifacts/fft_benchmark.elf
 """
 runMacro $reset
