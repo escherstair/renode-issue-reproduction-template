@@ -4,7 +4,8 @@
 #
 
 $name?="TestMachine"
-$repl?=@https://zephyr-dashboard.renode.io/zephyr_sim/df8b43d330edadad7113e57e540c647b7464ea45/d82be128f20e28a4954fe2bd70f980fdffe32609/nucleo_h563zi/hello_world/hello_world.repl
+# $repl?=@https://zephyr-dashboard.renode.io/zephyr_sim/df8b43d330edadad7113e57e540c647b7464ea45/d82be128f20e28a4954fe2bd70f980fdffe32609/nucleo_h563zi/hello_world/hello_world.repl
+$repl?=@https://zephyr-dashboard.renode.io/zephyr_sim/7edd8834f66701189dfaf3f1142b2bfba0b508bd/088bb95ccf5afd4a017da8b8f3b205a55c3d5da8/nucleo_h563zi/hello_world/hello_world.repl
 $bin?=$ORIGIN/artifacts/fft_benchmark.elf
 
 using sysbus
