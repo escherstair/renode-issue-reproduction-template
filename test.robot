@@ -1,6 +1,6 @@
 *** Variables ***
 ${SCRIPT}                     ${CURDIR}/test.resc
-${UART}                       sysbus.usart2
+${UART}                       sysbus.usart3
 
 *** Keywords ***
 Load Script
@@ -12,7 +12,6 @@ Should Run Test Case
     Load Script
     Start Emulation
     
-    Register Failing Uart String    ZEPHYR FATAL ERROR
+    Register Failing Uart String    BARE METAL FATAL ERROR
 
-    Wait For Line On Uart       *** Booting Zephyr OS build 076b625f2144 ***
-    Wait For Line On Uart       Hello World! nucleo_h533re/stm32h533xx
+    Wait For Line On Uart       Welcome to STM32 world !
