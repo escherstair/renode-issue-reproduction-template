@@ -5,7 +5,7 @@
 
 $name?="TestMachine"
 $repl?=@https://zephyr-dashboard.renode.io/zephyr_sim/df8b43d330edadad7113e57e540c647b7464ea45/d82be128f20e28a4954fe2bd70f980fdffe32609/nucleo_h563zi/hello_world/hello_world.repl
-$bin?=fft_benchmark.elf
+$bin?=@$ORIGIN/fft_benchmark.elf
 
 using sysbus
 mach create $name
